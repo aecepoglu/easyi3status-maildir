@@ -26,3 +26,24 @@ And restart i3 for the changes to take effect.
 * `label`: optional label
 * `hideCount`: hides the count from the display. `true` or `false`. Defaults to `false`
 * `hideIfZero`: show nothing if the count is 0. `true` or `false`. Defaults to `false`
+
+## Help & Troubleshooting
+
+### Using multiple instances
+
+If you have multiple accounts or directories you want to track for new mails, just add multiple maildir instances to your `config.yaml`:
+
+```yaml
+- name: maildir
+  config:
+    label: "home"
+    path: /home/aecepoglu/mail/inbox
+- name: maildir
+  config:
+    label: "work"
+    path: /home/aecepoglu/mail/work
+```
+
+### bad_path error
+
+You will see this error if your maildir path is wrong. Check the folder exists and is accessible
