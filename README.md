@@ -1,5 +1,8 @@
 # easyi3status maildir module
 
+Demo:  
+![demo](https://image.ibb.co/gS0iKQ/output_ag_TFLa.gif) ![demo2](https://image.ibb.co/iLuqYk/small2.png)
+
 ## To Install
 
     wget https://raw.githubusercontent.com/aecepoglu/easyi3status-maildir/master/maildir.py -P ~/.config/easyi3status/modules/
