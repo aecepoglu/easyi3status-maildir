@@ -1,0 +1,3 @@
+- name: maildir
+  config:
+    path: /path/to/your/maildir
